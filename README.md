@@ -135,7 +135,6 @@ My computer path is: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartU
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0a9kazkksb4yyrqqopdt.png)
 
-
 # Other timing methods
 Using the built-in scheduled tasks in ExcelToDatabase requires that the program be kept open.  Exiting the program will automatically stop the scheduled task from running. If you want to run the scheduled task in the background without opening the program, you can have other specialized scheduled task programs call the API provided by ExcelToDatabase.
 For example, the task scheduler that comes with Windows provides a background running mode without a graphical interface and can be automatically launched when the computer is turned on.
